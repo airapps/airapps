@@ -20,6 +20,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    for (NSString* family in [UIFont familyNames])
+    {
+        NSLog(@"%@", family);
+        for (NSString* name in [UIFont fontNamesForFamilyName: family])
+        {
+            NSLog(@" %@", name);
+        }
+    }
+    
     NSURLComponents *components = [NSURLComponents componentsWithURL:[NSURL URLWithString:@"http://192.168.0.103:8088"] resolvingAgainstBaseURL:NO];
     components.path = [NSString stringWithFormat:@"/%@.bundle", @"index.ios"];
     // When we support only iOS 8 and above, use queryItems for a better API.
