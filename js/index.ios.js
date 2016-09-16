@@ -10,42 +10,16 @@ import {
     Dimensions
 } from 'react-native';
 
-import Pili, {
-    Streaming,
-    Player,
-    StreamingConst
-} from 'react-native-pili';
 
 var {height, width} = Dimensions.get('window');
-import Umeng from 'air-umeng';
 class pilipili extends Component {
   constructor() {
     super();
-    Umeng.startWithAppkey('55894b6d67e58e66c5000d6d');
   }
 
   render() {
     return <View style={styles.container}>
-      <Player
-          source={{
-                uri:"rtmp://live.hkstv.hk.lxdns.com/live/hks",
-                //uri:"rtmp://pili-live-rtmp.pilitest.qiniucdn.com/pilitest/buhe",
-                //controller: true,
-                timeout: 10 * 1000,
-                live:true,
-                hardCodec:false,
-              }}
-          started={true}
-          style={{
-                height:height,
-                width:width,
-                flex:1
-              }}
-          aspectRatio={2}
-          />
-      <View style={{position:'absolute',left:50,top:50,width:200,height:200}}>
-
-      </View>
+      <Text>Browser</Text>
     </View>
   }
 }
@@ -68,4 +42,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('Example', () => pilipili);
+AppRegistry.registerComponent('AirApps', () => pilipili);
