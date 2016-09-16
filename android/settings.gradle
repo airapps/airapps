@@ -2,3 +2,6 @@ include ':app'
 
 include ':react-native-pili'
 project(':react-native-pili').projectDir = new File(settingsDir, '../js/node_modules/react-native-pili/android')
+
+include ':air-umeng'
+project(':air-umeng').projectDir = new File(settingsDir, '../js/node_modules/air-umeng/android')

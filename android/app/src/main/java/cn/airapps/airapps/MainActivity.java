@@ -1,6 +1,8 @@
 package cn.airapps.airapps;
 
 import com.facebook.react.ReactActivity;
+import com.umeng.analytics.AnalyticsConfig;
+import com.umeng.analytics.MobclickAgent;
 
 public class MainActivity extends ReactActivity {
 
@@ -11,5 +13,17 @@ public class MainActivity extends ReactActivity {
     @Override
     protected String getMainComponentName() {
         return "Example";
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
     }
 }
