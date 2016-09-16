@@ -17,10 +17,11 @@ import Pili, {
 } from 'react-native-pili';
 
 var {height, width} = Dimensions.get('window');
-
+import Umeng from 'air-umeng';
 class pilipili extends Component {
   constructor() {
     super();
+    Umeng.startWithAppkey('55894b6d67e58e66c5000d6d');
   }
 
   render() {

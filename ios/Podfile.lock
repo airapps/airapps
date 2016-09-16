@@ -1,4 +1,7 @@
 PODS:
+  - airumeng (2.0.0):
+    - React
+    - UMengAnalytics-NO-IDFA
   - HappyDNS (0.3.10)
   - pili-librtmp (1.0.4)
   - PLMediaStreamingKit (2.1.1):
@@ -49,9 +52,10 @@ PODS:
     - React/Core
   - React/RCTWebSocket (0.33.0):
     - React/Core
-  - WeChatSDK (0.0.1)
+  - UMengAnalytics-NO-IDFA (4.1.1)
 
 DEPENDENCIES:
+  - airumeng (from `../js/node_modules/air-umeng/ios/airumeng`)
   - PLMediaStreamingKit
   - PLPlayerKit
   - RCTPili (from `../js/node_modules/react-native-pili/ios/RCTPili`)
@@ -64,23 +68,26 @@ DEPENDENCIES:
   - React/RCTText (from `../js/node_modules/react-native`)
   - React/RCTVibration (from `../js/node_modules/react-native`)
   - React/RCTWebSocket (from `../js/node_modules/react-native`)
-  - WeChatSDK
+  - UMengAnalytics-NO-IDFA
 
 EXTERNAL SOURCES:
+  airumeng:
+    :path: "../js/node_modules/air-umeng/ios/airumeng"
   RCTPili:
     :path: "../js/node_modules/react-native-pili/ios/RCTPili"
   React:
     :path: "../js/node_modules/react-native"
 
 SPEC CHECKSUMS:
+  airumeng: 57128b6bc1879d4bc80d4891bf51d9d33cc21752
   HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
   pili-librtmp: bc768bc3971edad732fd5e66f0ee991fa1a0a257
   PLMediaStreamingKit: 64d4416ad8a39b3e63515cea52face395d048614
   PLPlayerKit: 30e419fa90e84df34922e6dd5d5833d7e4348bf4
   RCTPili: e32f78dd50a82314871f4a3813eac867ec25d45c
   React: 46edc166689ba71b0b6cf11e64dbdb258d177089
-  WeChatSDK: 2331356d1c18d52a52d19d5118974d5ad2d36eea
+  UMengAnalytics-NO-IDFA: 1064992c1b7aaa22823179c0b33a664813fd7a85
 
-PODFILE CHECKSUM: ed5fab7956187d288bb5b751c46ae72264410bfe
+PODFILE CHECKSUM: 1098ebd5b436fc61ac89fead6a455c929e882fe3
 
 COCOAPODS: 1.0.1

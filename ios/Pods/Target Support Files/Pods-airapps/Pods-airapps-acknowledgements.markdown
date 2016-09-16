@@ -471,9 +471,9 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 
-## WeChatSDK
+## UMengAnalytics-NO-IDFA
 
-Copyright (c) 2012 Tencent. All rights reserved.
+Copyright 2011 - 2015 UMeng.com. All rights reserved.
 
 
 ## pili-librtmp

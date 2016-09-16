@@ -500,10 +500,10 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
-			<string>Copyright (c) 2012 Tencent. All rights reserved.
+			<string>Copyright 2011 - 2015 UMeng.com. All rights reserved.
 </string>
 			<key>Title</key>
-			<string>WeChatSDK</string>
+			<string>UMengAnalytics-NO-IDFA</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>
