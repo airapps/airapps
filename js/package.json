@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start --port 8088"
   },
   "author": "buhe",
   "license": "GPL-3.0",
   "dependencies": {
+    "@shoutem/ui": "^0.8.5",
+    "air-umeng": "1.0.0",
     "react": "^15.3.1",
-    "react-native": "^0.33.0"
+    "react-native": "^0.33.0",
+    "react-native-pili": "2.0.1"
   }
 }

@@ -19,12 +19,26 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    NSURL *jsCodeLocation;
     
-    jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
+    for (NSString* family in [UIFont familyNames])
+    {
+        NSLog(@"%@", family);
+        for (NSString* name in [UIFont fontNamesForFamilyName: family])
+        {
+            NSLog(@" %@", name);
+        }
+    }
     
-    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
-                                                        moduleName:@"Example"
+    NSURLComponents *components = [NSURLComponents componentsWithURL:[NSURL URLWithString:@"http://192.168.0.103:8088"] resolvingAgainstBaseURL:NO];
+    components.path = [NSString stringWithFormat:@"/%@.bundle", @"index.ios"];
+    // When we support only iOS 8 and above, use queryItems for a better API.
+    components.query = [NSString stringWithFormat:@"platform=ios&dev=%@&minify=%@",
+                         @"true" ,
+                        @"true"];
+    
+    
+    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:components.URL
+                                                        moduleName:@"AirApps"
                                                  initialProperties:nil
                                                      launchOptions:launchOptions];
     rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];

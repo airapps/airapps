@@ -4,49 +4,77 @@ import React, {
 } from 'react';
 import {
     StyleSheet,
-    Text,
-    View,
     AppRegistry,
-    Dimensions
+    Dimensions,
+    ScrollView
 } from 'react-native';
 
-import Pili, {
-    Streaming,
-    Player,
-    StreamingConst
-} from 'react-native-pili';
+import {
+    Heading,
+    View,
+    Tile,
+    Text,
+    Title,
+    Subtitle,
+    Caption,
+    Icon,
+    Overlay,
+    Button,
+    TextInput,
+    NavigationBar,
+    Screen,
+    ListView,
+    Row,
+    Divider
+} from '@shoutem/ui';
 
-var {height, width} = Dimensions.get('window');
-import Umeng from 'air-umeng';
 class pilipili extends Component {
   constructor() {
     super();
-    Umeng.startWithAppkey('55894b6d67e58e66c5000d6d');
   }
 
   render() {
-    return <View style={styles.container}>
-      <Player
-          source={{
-                uri:"rtmp://live.hkstv.hk.lxdns.com/live/hks",
-                //uri:"rtmp://pili-live-rtmp.pilitest.qiniucdn.com/pilitest/buhe",
-                //controller: true,
-                timeout: 10 * 1000,
-                live:true,
-                hardCodec:false,
-              }}
-          started={true}
-          style={{
-                height:height,
-                width:width,
-                flex:1
-              }}
-          aspectRatio={2}
-          />
-      <View style={{position:'absolute',left:50,top:50,width:200,height:200}}>
-
-      </View>
-    </View>
+    return (
+        <Screen>
+          <NavigationBar
+              centerComponent={<Title>AirApps</Title>}
+              />
+          <View style={{marginTop:70}} styleName="horizontal">
+            <TextInput
+                style={{flex:5}}
+                placeholder={'Dev Server URL'}
+                />
+            <Button styleName="dark full-width"><Icon name="play"/></Button>
+          </View>
+          <Divider styleName="section-header">
+            <Caption>History</Caption>
+          </Divider>
+          <ScrollView>
+          <ListView
+              data={['App1','App2','App3','App4','App5','App6','App1','App2','App3','App4','App5','App6']}
+              //loading={false}
+              //onLoadMore={...}
+              //onRefresh={...}
+              //renderFooter={()=>{return <Divider styleName="line" />}}
+              //renderHeader={...}
+              renderRow={item => { return (
+                                      <View styleName="vertical" >
+                                        <Row styleName="small">
+                                              <Icon name="play"/>
+                                              <View styleName="content">
+                                                <Subtitle numberOfLines={2}>{item}</Subtitle>
+                                                <Caption>20 hours ago</Caption>
+                                              </View>
+                                        </Row>
+                                        <Divider styleName="line"/>
+                                      </View>
+                                  )}}
+              //renderSectionHeader={()=>{return <Divider styleName="line" />}}
+              //style={...}
+              />
+            </ScrollView>
+        </Screen>
+    )
   }
 }
 const styles = StyleSheet.create({
@@ -68,4 +96,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('Example', () => pilipili);
+AppRegistry.registerComponent('AirApps', () => pilipili);
