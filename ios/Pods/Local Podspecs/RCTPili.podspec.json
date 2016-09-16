@@ -1,0 +1,31 @@
+{
+  "name": "RCTPili",
+  "version": "2.0.0",
+  "summary": "React Native Pili SDK Bridge",
+  "description": "React Native Pili SDK Bridge",
+  "homepage": "http://www.airapps.cn/package/react-native-pili",
+  "license": "MIT",
+  "authors": {
+    "buhe": "bugu1986@126.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/buhe/react-native-piliv2.git",
+    "tag": "master"
+  },
+  "source_files": "RCTPili/**/*.{h,m}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ],
+    "PLMediaStreamingKit": [
+
+    ],
+    "PLPlayerKit": [
+
+    ]
+  }
+}

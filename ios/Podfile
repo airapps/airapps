@@ -17,7 +17,11 @@ target 'airapps' do
     'RCTVibration',
     'RCTWebSocket',
   ]
-  pod 'WeChatSDK'
+  pod 'PLMediaStreamingKit'
+  pod 'PLPlayerKit'
+  pod 'RCTPili', :path => '../js/node_modules/react-native-pili/ios/RCTPili'
+  pod 'UMengAnalytics-NO-IDFA'
+  pod 'airumeng', :path => '../js/node_modules/air-umeng/ios/airumeng'	
   target 'airappsUITests' do
     inherit! :search_paths
     # Pods for testing

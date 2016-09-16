@@ -31,6 +31,9 @@
 		3C357DE701D8C96911795974 /* libPods-airappsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-airappsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69E60E62D747CAA348D74004 /* libPods-airapps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-airapps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B04F53C0144DD023C20D1AB /* Pods-airapps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-airapps.release.xcconfig"; path = "Pods/Target Support Files/Pods-airapps/Pods-airapps.release.xcconfig"; sourceTree = "<group>"; };
+		78CBA9561D89464B009CD723 /* libHappyDNS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHappyDNS.a; path = "../../../Library/Developer/Xcode/DerivedData/airapps-dwuasignxhzguzhlhougkorsnuyw/Build/Products/Debug-iphonesimulator/HappyDNS/libHappyDNS.a"; sourceTree = "<group>"; };
+		78CBA9571D89464B009CD723 /* libpili-librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpili-librtmp.a"; path = "../../../Library/Developer/Xcode/DerivedData/airapps-dwuasignxhzguzhlhougkorsnuyw/Build/Products/Debug-iphonesimulator/pili-librtmp/libpili-librtmp.a"; sourceTree = "<group>"; };
+		78CBA9581D89464B009CD723 /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../Library/Developer/Xcode/DerivedData/airapps-dwuasignxhzguzhlhougkorsnuyw/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
 		78EE4B181D867C4900D8EEA0 /* airapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = airapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78EE4B1C1D867C4900D8EEA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78EE4B1E1D867C4900D8EEA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +71,9 @@
 		450C0B2759CB39AE427D7850 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				78CBA9561D89464B009CD723 /* libHappyDNS.a */,
+				78CBA9571D89464B009CD723 /* libpili-librtmp.a */,
+				78CBA9581D89464B009CD723 /* libReact.a */,
 				69E60E62D747CAA348D74004 /* libPods-airapps.a */,
 				3C357DE701D8C96911795974 /* libPods-airappsUITests.a */,
 			);

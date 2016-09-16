@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "72B6161F6E66100B2459BC6269C0E20967E04725",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "90E9F7278022C9CD362C3D2D53A0065283C97010" : 0,
+    "0A01FC5D34EE370AE2D6BDD66E726149D9342B5B" : 0,
+    "72B6161F6E66100B2459BC6269C0E20967E04725" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B09B2DE1-A262-48DE-82B4-EFD2F6DA1AF0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "90E9F7278022C9CD362C3D2D53A0065283C97010" : "airapps\/js\/node_modules\/react-native-pili\/",
+    "0A01FC5D34EE370AE2D6BDD66E726149D9342B5B" : "airapps\/js\/node_modules\/air-umeng\/",
+    "72B6161F6E66100B2459BC6269C0E20967E04725" : "airapps\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "airapps",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ios\/airapps.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:airapps\/air-umeng.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A01FC5D34EE370AE2D6BDD66E726149D9342B5B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:airapps\/airapps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "72B6161F6E66100B2459BC6269C0E20967E04725"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:buhe\/react-native-piliv2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90E9F7278022C9CD362C3D2D53A0065283C97010"
+    }
+  ]
+}
