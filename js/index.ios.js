@@ -28,6 +28,8 @@ import {
     Divider
 } from '@shoutem/ui';
 
+import AirDevFrame from './core/AirDevFrame';
+
 class pilipili extends Component {
   constructor() {
     super();
@@ -36,43 +38,7 @@ class pilipili extends Component {
   render() {
     return (
         <Screen>
-          <NavigationBar
-              centerComponent={<Title>AirApps</Title>}
-              />
-          <View style={{marginTop:70}} styleName="horizontal">
-            <TextInput
-                style={{flex:5}}
-                placeholder={'Dev Server URL'}
-                />
-            <Button styleName="dark full-width"><Icon name="play"/></Button>
-          </View>
-          <Divider styleName="section-header">
-            <Caption>History</Caption>
-          </Divider>
-          <ScrollView>
-          <ListView
-              data={['App1','App2','App3','App4','App5','App6','App1','App2','App3','App4','App5','App6']}
-              //loading={false}
-              //onLoadMore={...}
-              //onRefresh={...}
-              //renderFooter={()=>{return <Divider styleName="line" />}}
-              //renderHeader={...}
-              renderRow={item => { return (
-                                      <View styleName="vertical" >
-                                        <Row styleName="small">
-                                              <Icon name="play"/>
-                                              <View styleName="content">
-                                                <Subtitle numberOfLines={2}>{item}</Subtitle>
-                                                <Caption>20 hours ago</Caption>
-                                              </View>
-                                        </Row>
-                                        <Divider styleName="line"/>
-                                      </View>
-                                  )}}
-              //renderSectionHeader={()=>{return <Divider styleName="line" />}}
-              //style={...}
-              />
-            </ScrollView>
+          <AirDevFrame devURL={"http://localhost:8081"}/>
         </Screen>
     )
   }

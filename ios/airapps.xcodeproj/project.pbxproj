@@ -18,6 +18,8 @@
 		784DA9C41D8C1B87005A860F /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 784DA9B91D8C1B87005A860F /* Rubik-Medium.ttf */; };
 		784DA9C51D8C1B87005A860F /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 784DA9BA1D8C1B87005A860F /* Rubik-MediumItalic.ttf */; };
 		784DA9C61D8C1B87005A860F /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 784DA9BB1D8C1B87005A860F /* Rubik-Regular.ttf */; };
+		784DA9CA1D8C4B08005A860F /* DevFrameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 784DA9C91D8C4B08005A860F /* DevFrameManager.m */; };
+		784DA9CE1D8C4B2F005A860F /* DevFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 784DA9CD1D8C4B2F005A860F /* DevFrame.m */; };
 		78EE4B1D1D867C4900D8EEA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EE4B1C1D867C4900D8EEA0 /* main.m */; };
 		78EE4B201D867C4900D8EEA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EE4B1F1D867C4900D8EEA0 /* AppDelegate.m */; };
 		78EE4B281D867C4900D8EEA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EE4B271D867C4900D8EEA0 /* Assets.xcassets */; };
@@ -53,6 +55,10 @@
 		784DA9B91D8C1B87005A860F /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
 		784DA9BA1D8C1B87005A860F /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
 		784DA9BB1D8C1B87005A860F /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		784DA9C81D8C4B08005A860F /* DevFrameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DevFrameManager.h; path = DevFrame/DevFrameManager.h; sourceTree = "<group>"; };
+		784DA9C91D8C4B08005A860F /* DevFrameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DevFrameManager.m; path = DevFrame/DevFrameManager.m; sourceTree = "<group>"; };
+		784DA9CC1D8C4B2F005A860F /* DevFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DevFrame.h; path = DevFrame/DevFrame.h; sourceTree = "<group>"; };
+		784DA9CD1D8C4B2F005A860F /* DevFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DevFrame.m; path = DevFrame/DevFrame.m; sourceTree = "<group>"; };
 		78CBA9561D89464B009CD723 /* libHappyDNS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHappyDNS.a; path = "../../../Library/Developer/Xcode/DerivedData/airapps-dwuasignxhzguzhlhougkorsnuyw/Build/Products/Debug-iphonesimulator/HappyDNS/libHappyDNS.a"; sourceTree = "<group>"; };
 		78CBA9571D89464B009CD723 /* libpili-librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpili-librtmp.a"; path = "../../../Library/Developer/Xcode/DerivedData/airapps-dwuasignxhzguzhlhougkorsnuyw/Build/Products/Debug-iphonesimulator/pili-librtmp/libpili-librtmp.a"; sourceTree = "<group>"; };
 		78CBA9581D89464B009CD723 /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../Library/Developer/Xcode/DerivedData/airapps-dwuasignxhzguzhlhougkorsnuyw/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
@@ -102,6 +108,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		784DA9C71D8C4A8F005A860F /* DevFrame */ = {
+			isa = PBXGroup;
+			children = (
+				784DA9C81D8C4B08005A860F /* DevFrameManager.h */,
+				784DA9C91D8C4B08005A860F /* DevFrameManager.m */,
+				784DA9CC1D8C4B2F005A860F /* DevFrame.h */,
+				784DA9CD1D8C4B2F005A860F /* DevFrame.m */,
+			);
+			name = DevFrame;
+			sourceTree = "<group>";
+		};
 		78EE4B0F1D867C4900D8EEA0 = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +142,7 @@
 		78EE4B1A1D867C4900D8EEA0 /* airapps */ = {
 			isa = PBXGroup;
 			children = (
+				784DA9C71D8C4A8F005A860F /* DevFrame */,
 				784DA9B11D8C1B87005A860F /* rubicon-icon-font.ttf */,
 				784DA9B21D8C1B87005A860F /* Rubik-Black.ttf */,
 				784DA9B31D8C1B87005A860F /* Rubik-BlackItalic.ttf */,
@@ -384,7 +402,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				78EE4B201D867C4900D8EEA0 /* AppDelegate.m in Sources */,
+				784DA9CA1D8C4B08005A860F /* DevFrameManager.m in Sources */,
 				78EE4B1D1D867C4900D8EEA0 /* main.m in Sources */,
+				784DA9CE1D8C4B2F005A860F /* DevFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
