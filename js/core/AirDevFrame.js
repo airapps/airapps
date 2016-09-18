@@ -21,9 +21,9 @@ export default class AirDevFrame extends Component {
     const nativeProps = Object.assign({}, this.props);
 
     return (
-        <DevFrame
-            {...nativeProps}
-            />
+          <DevFrame
+              {...nativeProps}
+              />
     )
   }
 

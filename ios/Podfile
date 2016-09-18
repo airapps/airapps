@@ -16,6 +16,12 @@ target 'airapps' do
     'RCTText',
     'RCTVibration',
     'RCTWebSocket',
+    'RCTLinkingIOS',
+    'RCTAnimation',
+    'RCTAdSupport',
+    'RCTCameraRoll',
+    'RCTPushNotification',
+    'RCTSettings'
   ]
   pod 'PLMediaStreamingKit'
   pod 'PLPlayerKit'

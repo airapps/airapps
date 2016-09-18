@@ -6,7 +6,8 @@ import {
     StyleSheet,
     AppRegistry,
     Dimensions,
-    ScrollView
+    ScrollView,
+    Linking
 } from 'react-native';
 
 import {
@@ -29,6 +30,7 @@ import {
 } from '@shoutem/ui';
 
 import AirDevFrame from './core/AirDevFrame';
+import App from './App';
 
 class pilipili extends Component {
   constructor() {
@@ -37,9 +39,7 @@ class pilipili extends Component {
 
   render() {
     return (
-        <Screen>
-          <AirDevFrame devURL={"http://localhost:8081"}/>
-        </Screen>
+        <App />
     )
   }
 }

@@ -12,6 +12,8 @@ import {
     ScrollView
 } from 'react-native';
 
+import { connect } from 'react-redux';
+
 import {
     Heading,
     View,
@@ -31,23 +33,28 @@ import {
     Divider
 } from '@shoutem/ui';
 
-export default class Browser extends Component{
+import {
+    Actions,
+} from 'react-native-router-flux';
+
+class Browser extends Component{
   constructor() {
     super();
+    this.state = {
+      devURL:''
+    }
   }
 
   render(){
     return (
         <Screen>
-          <NavigationBar
-              centerComponent={<Title>AirApps</Title>}
-              />
           <View style={{marginTop:70}} styleName="horizontal">
             <TextInput
                 style={{flex:5}}
                 placeholder={'Dev Server URL'}
+                onChangeText={(devURL)=>{this.setState({devURL})}}
                 />
-            <Button styleName="dark full-width"><Icon name="play"/></Button>
+            <Button styleName="dark full-width" onPress={()=>{Actions.devFrame({devURL:this.state.devURL})}}><Icon name="play"/></Button>
           </View>
           <Divider styleName="section-header">
             <Caption>History</Caption>
@@ -80,3 +87,5 @@ export default class Browser extends Component{
     )
   }
 }
+
+export default connect(({routes}) => ({routes}))(Browser);

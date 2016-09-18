@@ -21,12 +21,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     
-    NSURLComponents *components = [NSURLComponents componentsWithURL:[NSURL URLWithString:@"http://192.168.201.241:8088"] resolvingAgainstBaseURL:NO];
+    NSURLComponents *components = [NSURLComponents componentsWithURL:[NSURL URLWithString:@"http://localhost:8088"] resolvingAgainstBaseURL:NO];
     components.path = [NSString stringWithFormat:@"/%@.bundle", @"index.ios"];
     // When we support only iOS 8 and above, use queryItems for a better API.
     components.query = [NSString stringWithFormat:@"platform=ios&dev=%@&minify=%@",
                          @"true" ,
-                        @"true"];
+                        @"false"];
     
     
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:components.URL

@@ -26,7 +26,7 @@
     // When we support only iOS 8 and above, use queryItems for a better API.
     components.query = [NSString stringWithFormat:@"platform=ios&dev=%@&minify=%@",
                         @"true" ,
-                        @"true"];
+                        @"false"];
     
     
     RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:components.URL
