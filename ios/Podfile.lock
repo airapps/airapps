@@ -30,6 +30,9 @@ PODS:
     - PLMediaStreamingKit
     - PLPlayerKit
     - React
+  - RCTRongCloud (1.0.0):
+    - React
+    - RongCloudIMLib
   - React (0.33.0):
     - React/Core (= 0.33.0)
   - React/ART (0.33.0):
@@ -65,6 +68,7 @@ PODS:
     - React/Core
   - React/RCTWebSocket (0.33.0):
     - React/Core
+  - RongCloudIMLib (2.7.2)
   - UMengAnalytics-NO-IDFA (4.1.1)
 
 DEPENDENCIES:
@@ -72,6 +76,7 @@ DEPENDENCIES:
   - PLMediaStreamingKit
   - PLPlayerKit
   - RCTPili (from `../js/node_modules/react-native-pili/ios/RCTPili`)
+  - RCTRongCloud (from `../js/node_modules/air-rongcloud/ios`)
   - React/ART (from `../js/node_modules/react-native`)
   - React/Core (from `../js/node_modules/react-native`)
   - React/RCTActionSheet (from `../js/node_modules/react-native`)
@@ -94,6 +99,8 @@ EXTERNAL SOURCES:
     :path: "../js/node_modules/air-umeng/ios/airumeng"
   RCTPili:
     :path: "../js/node_modules/react-native-pili/ios/RCTPili"
+  RCTRongCloud:
+    :path: "../js/node_modules/air-rongcloud/ios"
   React:
     :path: "../js/node_modules/react-native"
 
@@ -104,9 +111,11 @@ SPEC CHECKSUMS:
   PLMediaStreamingKit: 64d4416ad8a39b3e63515cea52face395d048614
   PLPlayerKit: 30e419fa90e84df34922e6dd5d5833d7e4348bf4
   RCTPili: e32f78dd50a82314871f4a3813eac867ec25d45c
+  RCTRongCloud: 7a18b9e2270c52bc51e079ecfe21fc4c92386bc4
   React: 46edc166689ba71b0b6cf11e64dbdb258d177089
+  RongCloudIMLib: 9a2118f5c8c812df8f3cae7859e6eaa69fac1f9d
   UMengAnalytics-NO-IDFA: 1064992c1b7aaa22823179c0b33a664813fd7a85
 
-PODFILE CHECKSUM: 9a4f5fdf7b6546185263f7e4a280ab6de9734728
+PODFILE CHECKSUM: ee9547aceaed258cb58aee58ed7dad78b6944336
 
 COCOAPODS: 1.0.1

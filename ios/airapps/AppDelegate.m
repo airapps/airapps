@@ -10,6 +10,7 @@
 
 #import "RCTBundleURLProvider.h"
 #import "RCTRootView.h"
+#import "RCTRongCloud.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    //Rong Cloud TODO
+    [RCTRongCloud registerAPI:@"c9kqb3rdkc8kj"];
     
     NSURLComponents *components = [NSURLComponents componentsWithURL:[NSURL URLWithString:@"http://localhost:8088"] resolvingAgainstBaseURL:NO];
     components.path = [NSString stringWithFormat:@"/%@.bundle", @"index.ios"];

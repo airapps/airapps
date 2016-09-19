@@ -27,7 +27,8 @@ target 'airapps' do
   pod 'PLPlayerKit'
   pod 'RCTPili', :path => '../js/node_modules/react-native-pili/ios/RCTPili'
   pod 'UMengAnalytics-NO-IDFA'
-  pod 'airumeng', :path => '../js/node_modules/air-umeng/ios/airumeng'	
+  pod 'airumeng', :path => '../js/node_modules/air-umeng/ios/airumeng'
+  pod 'RCTRongCloud', :path => '../js/node_modules/air-rongcloud/ios'
   target 'airappsUITests' do
     inherit! :search_paths
     # Pods for testing

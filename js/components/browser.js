@@ -54,7 +54,7 @@ class Browser extends Component{
                 placeholder={'Dev Server URL'}
                 onChangeText={(devURL)=>{this.setState({devURL})}}
                 />
-            <Button styleName="dark full-width" onPress={()=>{Actions.devFrame({devURL:this.state.devURL})}}><Icon name="play"/></Button>
+            <Button styleName="dark full-width" onPress={()=>{Actions.devFrame({devURL:'http://localhost:8081'})}}><Icon name="play"/></Button>
           </View>
           <Divider styleName="section-header">
             <Caption>History</Caption>
