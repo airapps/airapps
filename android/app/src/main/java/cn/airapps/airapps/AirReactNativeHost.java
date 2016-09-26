@@ -1,7 +1,9 @@
 package cn.airapps.airapps;
 
 import android.app.Application;
+import android.content.SharedPreferences;
 import android.os.Handler;
+import android.preference.PreferenceManager;
 import android.util.Log;
 
 import com.facebook.common.internal.ByteStreams;
@@ -10,6 +12,7 @@ import com.facebook.react.LifecycleState;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
+import com.facebook.react.devsupport.DevInternalSettings;
 import com.facebook.react.shell.MainReactPackage;
 import com.pili.rnpili.PiliPackage;
 
@@ -145,6 +148,12 @@ public class AirReactNativeHost extends ReactNativeHost {
 
     protected ReactInstanceManager createReactInstanceManager() {
         //需要优化成异步
+
+        SharedPreferences mPreferences = PreferenceManager.getDefaultSharedPreferences(getApplication().getApplicationContext());
+        mPreferences.edit().putString("debug_http_host","192.168.180.97:8081").commit();
+
+        Log.i(TAG,mPreferences.getString("debug_http_host",""));
+
         String jsBundleFile = loadJSBundleSync(URL);
         ReactInstanceManager.Builder builder = ReactInstanceManager.builder()
                 .setApplication(this.getApplication())
