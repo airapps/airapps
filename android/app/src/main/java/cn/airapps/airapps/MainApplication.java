@@ -18,21 +18,7 @@ import cn.airapps.umeng.UmengAir;
 
 public class MainApplication extends Application implements ReactApplication {
 
-    private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
-        @Override
-        protected boolean getUseDeveloperSupport() {
-            return BuildConfig.DEBUG;
-        }
-
-        @Override
-        protected List<ReactPackage> getPackages() {
-            return Arrays.<ReactPackage>asList(
-                    new MainReactPackage(),
-                    new PiliPackage(),
-                    new UmengAir()
-            );
-        }
-    };
+    private final ReactNativeHost mReactNativeHost = new AirReactNativeHost(this);
 
     @Override
     public ReactNativeHost getReactNativeHost() {
