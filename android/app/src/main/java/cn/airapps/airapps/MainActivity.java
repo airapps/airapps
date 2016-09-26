@@ -1,10 +1,18 @@
 package cn.airapps.airapps;
 
+import android.app.Activity;
+
 import com.facebook.react.ReactActivity;
 import com.umeng.analytics.AnalyticsConfig;
 import com.umeng.analytics.MobclickAgent;
 
 public class MainActivity extends ReactActivity {
+
+    public static Activity hack ;
+
+    public MainActivity() {
+        hack = this;
+    }
 
     /**
      * Returns the name of the main component registered from JavaScript.

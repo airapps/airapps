@@ -41,7 +41,7 @@ class Browser extends Component{
   constructor() {
     super();
     this.state = {
-      devURL:''
+      devURL:'http://localhost:8081'
     }
   }
 
@@ -54,14 +54,14 @@ class Browser extends Component{
                 placeholder={'Dev Server URL'}
                 onChangeText={(devURL)=>{this.setState({devURL})}}
                 />
-            <Button styleName="dark full-width" onPress={()=>{Actions.devFrame({devURL:'http://localhost:8081'})}}><Icon name="play"/></Button>
+            <Button styleName="dark full-width" onPress={()=>{Actions.devFrame({devURL:this.state.devURL})}}><Icon name="play"/></Button>
           </View>
           <Divider styleName="section-header">
             <Caption>History</Caption>
           </Divider>
           <ScrollView>
             <ListView
-                data={['App1','App2','App3','App4','App5','App6','App1','App2','App3','App4','App5','App6']}
+                data={['Pili-RN-Living','App2','App3','App4','App5','App6','App1','App2','App3','App4','App5','App6']}
                 //loading={false}
                 //onLoadMore={...}
                 //onRefresh={...}
@@ -70,7 +70,7 @@ class Browser extends Component{
                 renderRow={item => { return (
                                       <View styleName="vertical" >
                                         <Row styleName="small">
-                                              <Icon name="play"/>
+                                              <Button onPress={()=>{Actions.devFrame({devURL:this.state.devURL})}}><Icon name="play"/></Button>
                                               <View styleName="content">
                                                 <Subtitle numberOfLines={2}>{item}</Subtitle>
                                                 <Caption>20 hours ago</Caption>

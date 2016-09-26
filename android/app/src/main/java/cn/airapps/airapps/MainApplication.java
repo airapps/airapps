@@ -13,6 +13,7 @@ import com.umeng.analytics.MobclickAgent;
 import java.util.Arrays;
 import java.util.List;
 
+import cn.airapps.airapps.devframe.DevFramePackage;
 import cn.airapps.umeng.UmengAir;
 
 
@@ -29,7 +30,8 @@ public class MainApplication extends Application implements ReactApplication {
             return Arrays.<ReactPackage>asList(
                     new MainReactPackage(),
                     new PiliPackage(),
-                    new UmengAir()
+                    new UmengAir(),
+                    new DevFramePackage(MainApplication.this.getApplicationContext(),MainApplication.this)
             );
         }
     };
