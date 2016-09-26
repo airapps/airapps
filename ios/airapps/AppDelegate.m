@@ -23,17 +23,12 @@
     
     //Rong Cloud TODO
     [RCTRongCloud registerAPI:@"c9kqb3rdkc8kj"];
+    NSURL *jsCodeLocation;
     
-    NSURLComponents *components = [NSURLComponents componentsWithURL:[NSURL URLWithString:@"http://localhost:8088"] resolvingAgainstBaseURL:NO];
-    components.path = [NSString stringWithFormat:@"/%@.bundle", @"index.ios"];
-    // When we support only iOS 8 and above, use queryItems for a better API.
-    components.query = [NSString stringWithFormat:@"platform=ios&dev=%@&minify=%@",
-                         @"true" ,
-                        @"false"];
+    jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];
     
-    
-    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:components.URL
-                                                        moduleName:@"AirApps"
+    RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
+                                                        moduleName:@"AirKit"
                                                  initialProperties:nil
                                                      launchOptions:launchOptions];
     rootView.backgroundColor = [[UIColor alloc] initWithRed:1.0f green:1.0f blue:1.0f alpha:1];
