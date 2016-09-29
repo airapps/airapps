@@ -6,6 +6,7 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "72B6161F6E66100B2459BC6269C0E20967E04725" : 0,
     "90E9F7278022C9CD362C3D2D53A0065283C97010" : 0,
+    "7E0CD4F508C877BC9308DF7A918431407DEFFA94" : 0,
     "0A01FC5D34EE370AE2D6BDD66E726149D9342B5B" : 0,
     "1A2D91AD645388A4C1FF92B030885FA09E0B3D86" : 0
   },
@@ -13,6 +14,7 @@
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "72B6161F6E66100B2459BC6269C0E20967E04725" : "airapps\/",
     "90E9F7278022C9CD362C3D2D53A0065283C97010" : "airapps\/js\/node_modules\/react-native-pili\/",
+    "7E0CD4F508C877BC9308DF7A918431407DEFFA94" : "airapps\/js\/node_modules\/air-amap\/",
     "0A01FC5D34EE370AE2D6BDD66E726149D9342B5B" : "airapps\/js\/node_modules\/air-umeng\/",
     "1A2D91AD645388A4C1FF92B030885FA09E0B3D86" : "airapps\/js\/node_modules\/@air\/rongcloud\/"
   },
@@ -34,6 +36,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:airapps\/airapps.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "72B6161F6E66100B2459BC6269C0E20967E04725"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/airapps\/air-amap.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7E0CD4F508C877BC9308DF7A918431407DEFFA94"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:buhe\/react-native-piliv2.git",

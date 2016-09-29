@@ -248,6 +248,11 @@
 					78EE4B171D867C4900D8EEA0 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = N22PJBS26Y;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					78EE4B301D867C4900D8EEA0 = {
 						CreatedOnToolsVersion = 7.3.1;

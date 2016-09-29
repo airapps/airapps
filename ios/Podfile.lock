@@ -2,6 +2,11 @@ PODS:
   - airumeng (2.0.0):
     - React
     - UMengAnalytics-NO-IDFA
+  - AMap3DMap (4.2.1):
+    - AMapFoundation (~> 1.2)
+  - AMapFoundation (1.2.0)
+  - AMapSearch (4.2.0):
+    - AMapFoundation (~> 1.0)
   - HappyDNS (0.3.10)
   - pili-librtmp (1.0.4)
   - PLMediaStreamingKit (2.1.1):
@@ -26,6 +31,10 @@ PODS:
   - PLPlayerKit/precompiled (2.2.4):
     - HappyDNS (~> 0.3.10)
     - pili-librtmp (= 1.0.4)
+  - RCTAMap (1.0.0):
+    - AMap3DMap
+    - AMapSearch
+    - React
   - RCTPili (2.0.0):
     - PLMediaStreamingKit
     - PLPlayerKit
@@ -68,13 +77,18 @@ PODS:
     - React/Core
   - React/RCTWebSocket (0.33.0):
     - React/Core
+  - RNSVG (4.3.1):
+    - React
   - RongCloudIMLib (2.7.2)
   - UMengAnalytics-NO-IDFA (4.1.1)
 
 DEPENDENCIES:
   - airumeng (from `../js/node_modules/air-umeng/ios/airumeng`)
+  - AMap3DMap
+  - AMapSearch
   - PLMediaStreamingKit
   - PLPlayerKit
+  - RCTAMap (from `../js/node_modules/air-amap/ios`)
   - RCTPili (from `../js/node_modules/react-native-pili/ios/RCTPili`)
   - RCTRongCloud (from `../js/node_modules/air-rongcloud/ios`)
   - React/ART (from `../js/node_modules/react-native`)
@@ -92,30 +106,40 @@ DEPENDENCIES:
   - React/RCTText (from `../js/node_modules/react-native`)
   - React/RCTVibration (from `../js/node_modules/react-native`)
   - React/RCTWebSocket (from `../js/node_modules/react-native`)
+  - RNSVG (from `../js/node_modules/react-native-svg`)
   - UMengAnalytics-NO-IDFA
 
 EXTERNAL SOURCES:
   airumeng:
     :path: "../js/node_modules/air-umeng/ios/airumeng"
+  RCTAMap:
+    :path: "../js/node_modules/air-amap/ios"
   RCTPili:
     :path: "../js/node_modules/react-native-pili/ios/RCTPili"
   RCTRongCloud:
     :path: "../js/node_modules/air-rongcloud/ios"
   React:
     :path: "../js/node_modules/react-native"
+  RNSVG:
+    :path: "../js/node_modules/react-native-svg"
 
 SPEC CHECKSUMS:
   airumeng: 57128b6bc1879d4bc80d4891bf51d9d33cc21752
+  AMap3DMap: 0a5237cdc228f49818763ce9707c997870c5eb01
+  AMapFoundation: 8acc2bf4eed79aab4d21002ddb8b24a6f3f3621c
+  AMapSearch: 788020fca7ed18819e8bc2bfca716a6775a05ada
   HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
   pili-librtmp: bc768bc3971edad732fd5e66f0ee991fa1a0a257
   PLMediaStreamingKit: 64d4416ad8a39b3e63515cea52face395d048614
   PLPlayerKit: 30e419fa90e84df34922e6dd5d5833d7e4348bf4
+  RCTAMap: 1586e5cc442b5346d3547668f7ca4afa286fbc68
   RCTPili: e32f78dd50a82314871f4a3813eac867ec25d45c
   RCTRongCloud: 7a18b9e2270c52bc51e079ecfe21fc4c92386bc4
   React: 46edc166689ba71b0b6cf11e64dbdb258d177089
+  RNSVG: 3116e868e61fa09ce3be89c3f031e51b2d4ed252
   RongCloudIMLib: 9a2118f5c8c812df8f3cae7859e6eaa69fac1f9d
   UMengAnalytics-NO-IDFA: 1064992c1b7aaa22823179c0b33a664813fd7a85
 
-PODFILE CHECKSUM: ee9547aceaed258cb58aee58ed7dad78b6944336
+PODFILE CHECKSUM: 3c2e7052849cf8a4b039d12c87f767b8291a6399
 
 COCOAPODS: 1.0.1
