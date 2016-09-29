@@ -6,6 +6,7 @@ import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.util.Log;
 
+import com.dianwoba.rctamap.AMapPackage;
 import com.facebook.common.internal.ByteStreams;
 import com.facebook.infer.annotation.Assertions;
 import com.facebook.react.LifecycleState;
@@ -61,7 +62,8 @@ public class AirReactNativeHost extends ReactNativeHost {
         return Arrays.<ReactPackage>asList(
                 new MainReactPackage(),
                 new PiliPackage(),
-                new UmengAir()
+                new UmengAir(),
+                new AMapPackage()
         );
     }
 
@@ -150,7 +152,7 @@ public class AirReactNativeHost extends ReactNativeHost {
         //需要优化成异步
 
         SharedPreferences mPreferences = PreferenceManager.getDefaultSharedPreferences(getApplication().getApplicationContext());
-        mPreferences.edit().putString("debug_http_host","192.168.180.97:8081").commit();
+        mPreferences.edit().putString("debug_http_host","192.168.180.188:8081").commit();
 
         Log.i(TAG,mPreferences.getString("debug_http_host",""));
 

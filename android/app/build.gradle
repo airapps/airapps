@@ -130,6 +130,7 @@ dependencies {
     // From node_modules
     compile project(':react-native-pili')
     compile project(':air-umeng')
+    compile project(':air-amap')
 }
 
 // Run this once to be able to run the application with BUCK

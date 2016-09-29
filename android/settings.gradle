@@ -5,3 +5,6 @@ project(':react-native-pili').projectDir = new File(settingsDir, '../js/node_mod
 
 include ':air-umeng'
 project(':air-umeng').projectDir = new File(settingsDir, '../js/node_modules/air-umeng/android')
+
+include ':air-amap'
+project(':air-amap').projectDir = new File(settingsDir, '../js/node_modules/air-amap/android')
