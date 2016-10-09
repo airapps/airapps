@@ -1,4 +1,6 @@
 PODS:
+  - AirPush (1.0.0):
+    - React
   - airumeng (2.0.0):
     - React
     - UMengAnalytics-NO-IDFA
@@ -83,6 +85,7 @@ PODS:
   - UMengAnalytics-NO-IDFA (4.1.1)
 
 DEPENDENCIES:
+  - AirPush (from `../js/node_modules/air-push/ios`)
   - airumeng (from `../js/node_modules/air-umeng/ios/airumeng`)
   - AMap3DMap
   - AMapSearch
@@ -110,6 +113,8 @@ DEPENDENCIES:
   - UMengAnalytics-NO-IDFA
 
 EXTERNAL SOURCES:
+  AirPush:
+    :path: "../js/node_modules/air-push/ios"
   airumeng:
     :path: "../js/node_modules/air-umeng/ios/airumeng"
   RCTAMap:
@@ -124,6 +129,7 @@ EXTERNAL SOURCES:
     :path: "../js/node_modules/react-native-svg"
 
 SPEC CHECKSUMS:
+  AirPush: 3de3057f101e218430f6d73be0f2618fc8772973
   airumeng: 57128b6bc1879d4bc80d4891bf51d9d33cc21752
   AMap3DMap: 0a5237cdc228f49818763ce9707c997870c5eb01
   AMapFoundation: 8acc2bf4eed79aab4d21002ddb8b24a6f3f3621c
@@ -140,6 +146,6 @@ SPEC CHECKSUMS:
   RongCloudIMLib: 9a2118f5c8c812df8f3cae7859e6eaa69fac1f9d
   UMengAnalytics-NO-IDFA: 1064992c1b7aaa22823179c0b33a664813fd7a85
 
-PODFILE CHECKSUM: 3c2e7052849cf8a4b039d12c87f767b8291a6399
+PODFILE CHECKSUM: 6235556e3e53d263777c00920a801e2d7a04564d
 
 COCOAPODS: 1.0.1

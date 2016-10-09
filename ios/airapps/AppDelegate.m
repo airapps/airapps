@@ -11,6 +11,9 @@
 #import "RCTBundleURLProvider.h"
 #import "RCTRootView.h"
 #import "RCTRongCloud.h"
+#import <AMapFoundationKit/AMapFoundationKit.h>
+
+#import <ReactNativeConfig/ReactNativeConfig.h>
 
 @interface AppDelegate ()
 
@@ -21,8 +24,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    NSLog(@"--------------------");
+    NSLog(@"ReactNativeConfig: %@", [[ReactNativeConfig env] description]);
+    NSLog(@"--------------------");
+    
     //Rong Cloud TODO
     [RCTRongCloud registerAPI:@"c9kqb3rdkc8kj"];
+    [AMapServices sharedServices].apiKey = [ReactNativeConfig envFor:@"AMAP_IOS_KEY"];
+    
+    
     NSURL *jsCodeLocation;
     
     jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index.ios" fallbackResource:nil];

@@ -15,6 +15,7 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.devsupport.DevInternalSettings;
 import com.facebook.react.shell.MainReactPackage;
+import com.horcrux.svg.RNSvgPackage;
 import com.pili.rnpili.PiliPackage;
 
 import java.io.BufferedOutputStream;
@@ -32,6 +33,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 import cn.airapps.umeng.UmengAir;
+import io.rong.imlib.ipc.IMLibPackage;
 import okhttp3.Call;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
@@ -63,7 +65,9 @@ public class AirReactNativeHost extends ReactNativeHost {
                 new MainReactPackage(),
                 new PiliPackage(),
                 new UmengAir(),
-                new AMapPackage()
+                new AMapPackage(),
+                new RNSvgPackage(),
+                new IMLibPackage()
         );
     }
 
@@ -152,7 +156,7 @@ public class AirReactNativeHost extends ReactNativeHost {
         //需要优化成异步
 
         SharedPreferences mPreferences = PreferenceManager.getDefaultSharedPreferences(getApplication().getApplicationContext());
-        mPreferences.edit().putString("debug_http_host","192.168.180.188:8081").commit();
+        mPreferences.edit().putString("debug_http_host","192.168.181.105:8081").commit();
 
         Log.i(TAG,mPreferences.getString("debug_http_host",""));
 

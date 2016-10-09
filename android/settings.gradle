@@ -8,3 +8,16 @@ project(':air-umeng').projectDir = new File(settingsDir, '../js/node_modules/air
 
 include ':air-amap'
 project(':air-amap').projectDir = new File(settingsDir, '../js/node_modules/air-amap/android')
+
+include ':react-native-svg'
+project(':react-native-svg').projectDir = new File(settingsDir, '../js/node_modules/react-native-svg/android')
+
+include ':react-native-svg'
+project(':react-native-svg').projectDir = new File(settingsDir, '../js/node_modules/react-native-svg/android')
+
+include ':air-rongcloud'
+project(':air-rongcloud').projectDir = new File(settingsDir, '../js/node_modules/air-rongcloud/android')
+
+
+include ':react-native-config'
+project(':react-native-config').projectDir = new File(settingsDir, '../js/node_modules/react-native-config/android')

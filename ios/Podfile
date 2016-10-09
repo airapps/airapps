@@ -34,6 +34,8 @@ target 'airapps' do
   pod 'RCTRongCloud', :path => '../js/node_modules/air-rongcloud/ios'
   pod 'RNSVG', :path => '../js/node_modules/react-native-svg'
   pod 'RCTAMap', :path => '../js/node_modules/air-amap/ios'
+  pod 'AirPush', :path => '../js/node_modules/air-push/ios'
+  #pod 'ReactNativeConfig', :path => '../js/node_modules/react-native-config/ios'
   target 'airappsUITests' do
     inherit! :search_paths
     # Pods for testing
