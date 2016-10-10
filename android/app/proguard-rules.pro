@@ -65,3 +65,11 @@
 # stetho
 
 -dontwarn com.facebook.stetho.**
+
+
+## 3rd
+## wechat
+
+-keep class com.tencent.mm.sdk.** {
+   *;
+}
