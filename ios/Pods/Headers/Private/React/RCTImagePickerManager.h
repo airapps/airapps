@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/Libraries/CameraRoll/RCTImagePickerManager.h
+../../../../../node_modules/react-native/Libraries/CameraRoll/RCTImagePickerManager.h

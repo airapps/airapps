@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/React/Views/RCTBorderStyle.h
+../../../../../node_modules/react-native/React/Views/RCTBorderStyle.h

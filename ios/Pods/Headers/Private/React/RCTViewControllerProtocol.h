@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/React/Views/RCTViewControllerProtocol.h
+../../../../../node_modules/react-native/React/Views/RCTViewControllerProtocol.h

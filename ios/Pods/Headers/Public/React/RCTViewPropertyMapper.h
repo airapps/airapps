@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/Libraries/NativeAnimation/RCTViewPropertyMapper.h
+../../../../../node_modules/react-native/Libraries/NativeAnimation/RCTViewPropertyMapper.h

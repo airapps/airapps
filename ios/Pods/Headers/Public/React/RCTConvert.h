@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/React/Base/RCTConvert.h
+../../../../../node_modules/react-native/React/Base/RCTConvert.h

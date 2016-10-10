@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/React/Modules/RCTKeyboardObserver.h
+../../../../../node_modules/react-native/React/Modules/RCTKeyboardObserver.h

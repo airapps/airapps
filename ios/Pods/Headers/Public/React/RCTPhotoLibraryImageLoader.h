@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/Libraries/CameraRoll/RCTPhotoLibraryImageLoader.h
+../../../../../node_modules/react-native/Libraries/CameraRoll/RCTPhotoLibraryImageLoader.h

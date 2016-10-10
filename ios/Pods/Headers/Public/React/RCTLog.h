@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/React/Base/RCTLog.h
+../../../../../node_modules/react-native/React/Base/RCTLog.h

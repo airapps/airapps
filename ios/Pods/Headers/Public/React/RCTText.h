@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/Libraries/Text/RCTText.h
+../../../../../node_modules/react-native/Libraries/Text/RCTText.h

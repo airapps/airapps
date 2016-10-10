@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native-pili/ios/RCTPili/RCTPili/RCTPlayer.h
+../../../../../node_modules/react-native-pili/ios/RCTPili/RCTPili/RCTPlayer.h

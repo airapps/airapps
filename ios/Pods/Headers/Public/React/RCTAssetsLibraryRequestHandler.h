@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/Libraries/CameraRoll/RCTAssetsLibraryRequestHandler.h
+../../../../../node_modules/react-native/Libraries/CameraRoll/RCTAssetsLibraryRequestHandler.h

@@ -59,7 +59,7 @@ import com.android.build.OutputFile
  * ]
  */
 
-apply from: "../../js/node_modules/react-native/react.gradle"
+apply from: "../../node_modules/react-native/react.gradle"
 
 apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
 

@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/Libraries/CameraRoll/RCTCameraRollManager.h
+../../../../../node_modules/react-native/Libraries/CameraRoll/RCTCameraRollManager.h

@@ -1,1 +1,1 @@
-../../../../../js/node_modules/air-rongcloud/ios/RCTRongCloud/RCTRongCloudVoiceManager.h
+../../../../../node_modules/air-rongcloud/ios/RCTRongCloud/RCTRongCloudVoiceManager.h

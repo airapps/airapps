@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/React/Base/RCTBridge+Private.h
+../../../../../node_modules/react-native/React/Base/RCTBridge+Private.h

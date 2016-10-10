@@ -1,1 +1,1 @@
-../../../../../js/node_modules/air-umeng/ios/airumeng/airumeng/airumeng.h
+../../../../../node_modules/air-umeng/ios/airumeng/airumeng/airumeng.h

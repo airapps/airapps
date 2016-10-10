@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/Libraries/ART/ARTCGFloatArray.h
+../../../../../node_modules/react-native/Libraries/ART/ARTCGFloatArray.h

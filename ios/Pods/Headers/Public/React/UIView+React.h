@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/React/Views/UIView+React.h
+../../../../../node_modules/react-native/React/Views/UIView+React.h

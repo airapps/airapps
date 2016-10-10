@@ -1,0 +1,29 @@
+{
+  "name": "airapps",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node node_modules/react-native/local-cli/cli.js start --port 8088"
+  },
+  "author": "buhe",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@shoutem/ui": "^0.8.5",
+    "air-amap": "1.0.1",
+    "air-rongcloud": "0.0.2",
+    "air-umeng": "1.0.0",
+    "react": "^15.3.1",
+    "react-native": "^0.34.1",
+    "react-native-pili": "2.1.1",
+    "react-native-router-flux": "^3.35.0",
+    "react-native-svg": "^4.3.1",
+    "react-native-wechat": "^1.6.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.6.1",
+    "redux-persist": "^3.2.2",
+    "redux-thunk": "^2.1.0"
+  }
+}

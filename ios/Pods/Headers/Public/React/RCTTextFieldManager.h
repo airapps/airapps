@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/Libraries/Text/RCTTextFieldManager.h
+../../../../../node_modules/react-native/Libraries/Text/RCTTextFieldManager.h

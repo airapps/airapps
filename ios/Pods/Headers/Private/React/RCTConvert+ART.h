@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/Libraries/ART/RCTConvert+ART.h
+../../../../../node_modules/react-native/Libraries/ART/RCTConvert+ART.h

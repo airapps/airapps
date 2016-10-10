@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/Libraries/ART/ARTSurfaceView.h
+../../../../../node_modules/react-native/Libraries/ART/ARTSurfaceView.h

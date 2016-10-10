@@ -20,7 +20,7 @@
 		784DA9C61D8C1B87005A860F /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 784DA9BB1D8C1B87005A860F /* Rubik-Regular.ttf */; };
 		784DA9CA1D8C4B08005A860F /* DevFrameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 784DA9C91D8C4B08005A860F /* DevFrameManager.m */; };
 		784DA9CE1D8C4B2F005A860F /* DevFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 784DA9CD1D8C4B2F005A860F /* DevFrame.m */; };
-		78B775CA1DAA18B900002DCF /* libReactNativeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B775C91DAA188000002DCF /* libReactNativeConfig.a */; };
+		78B775E01DAB614C00002DCF /* libReactNativeConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B775DF1DAB614100002DCF /* libReactNativeConfig.a */; };
 		78EE4B1D1D867C4900D8EEA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EE4B1C1D867C4900D8EEA0 /* main.m */; };
 		78EE4B201D867C4900D8EEA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78EE4B1F1D867C4900D8EEA0 /* AppDelegate.m */; };
 		78EE4B281D867C4900D8EEA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78EE4B271D867C4900D8EEA0 /* Assets.xcassets */; };
@@ -31,9 +31,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		78B775C81DAA188000002DCF /* PBXContainerItemProxy */ = {
+		78B775DE1DAB614100002DCF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 78B775C41DAA188000002DCF /* ReactNativeConfig.xcodeproj */;
+			containerPortal = 78B775DA1DAB614100002DCF /* ReactNativeConfig.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = EB2648DF1C7BE17A00B8F155;
 			remoteInfo = ReactNativeConfig;
@@ -67,7 +67,8 @@
 		784DA9C91D8C4B08005A860F /* DevFrameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DevFrameManager.m; path = DevFrame/DevFrameManager.m; sourceTree = "<group>"; };
 		784DA9CC1D8C4B2F005A860F /* DevFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DevFrame.h; path = DevFrame/DevFrame.h; sourceTree = "<group>"; };
 		784DA9CD1D8C4B2F005A860F /* DevFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DevFrame.m; path = DevFrame/DevFrame.m; sourceTree = "<group>"; };
-		78B775C41DAA188000002DCF /* ReactNativeConfig.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeConfig.xcodeproj; path = "../js/node_modules/react-native-config/ios/ReactNativeConfig.xcodeproj"; sourceTree = "<group>"; };
+		78B775CB1DAA2F0200002DCF /* airapps.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = airapps.entitlements; sourceTree = "<group>"; };
+		78B775DA1DAB614100002DCF /* ReactNativeConfig.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ReactNativeConfig.xcodeproj; path = "../node_modules/react-native-config/ios/ReactNativeConfig.xcodeproj"; sourceTree = "<group>"; };
 		78CBA9561D89464B009CD723 /* libHappyDNS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libHappyDNS.a; path = "../../../Library/Developer/Xcode/DerivedData/airapps-dwuasignxhzguzhlhougkorsnuyw/Build/Products/Debug-iphonesimulator/HappyDNS/libHappyDNS.a"; sourceTree = "<group>"; };
 		78CBA9571D89464B009CD723 /* libpili-librtmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libpili-librtmp.a"; path = "../../../Library/Developer/Xcode/DerivedData/airapps-dwuasignxhzguzhlhougkorsnuyw/Build/Products/Debug-iphonesimulator/pili-librtmp/libpili-librtmp.a"; sourceTree = "<group>"; };
 		78CBA9581D89464B009CD723 /* libReact.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libReact.a; path = "../../../Library/Developer/Xcode/DerivedData/airapps-dwuasignxhzguzhlhougkorsnuyw/Build/Products/Debug-iphonesimulator/React/libReact.a"; sourceTree = "<group>"; };
@@ -90,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78B775CA1DAA18B900002DCF /* libReactNativeConfig.a in Frameworks */,
+				78B775E01DAB614C00002DCF /* libReactNativeConfig.a in Frameworks */,
 				EC03C37CC24867A64D3BD507 /* libPods-airapps.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,7 +110,7 @@
 		450C0B2759CB39AE427D7850 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78B775C41DAA188000002DCF /* ReactNativeConfig.xcodeproj */,
+				78B775DA1DAB614100002DCF /* ReactNativeConfig.xcodeproj */,
 				78CBA9561D89464B009CD723 /* libHappyDNS.a */,
 				78CBA9571D89464B009CD723 /* libpili-librtmp.a */,
 				78CBA9581D89464B009CD723 /* libReact.a */,
@@ -130,10 +131,10 @@
 			name = DevFrame;
 			sourceTree = "<group>";
 		};
-		78B775C51DAA188000002DCF /* Products */ = {
+		78B775DB1DAB614100002DCF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78B775C91DAA188000002DCF /* libReactNativeConfig.a */,
+				78B775DF1DAB614100002DCF /* libReactNativeConfig.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,6 +162,7 @@
 		78EE4B1A1D867C4900D8EEA0 /* airapps */ = {
 			isa = PBXGroup;
 			children = (
+				78B775CB1DAA2F0200002DCF /* airapps.entitlements */,
 				784DA9C71D8C4A8F005A860F /* DevFrame */,
 				784DA9B11D8C1B87005A860F /* rubicon-icon-font.ttf */,
 				784DA9B21D8C1B87005A860F /* Rubik-Black.ttf */,
@@ -271,6 +273,9 @@
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
+							com.apple.Push = {
+								enabled = 1;
+							};
 						};
 					};
 					78EE4B301D867C4900D8EEA0 = {
@@ -292,8 +297,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 78B775C51DAA188000002DCF /* Products */;
-					ProjectRef = 78B775C41DAA188000002DCF /* ReactNativeConfig.xcodeproj */;
+					ProductGroup = 78B775DB1DAB614100002DCF /* Products */;
+					ProjectRef = 78B775DA1DAB614100002DCF /* ReactNativeConfig.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -305,11 +310,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		78B775C91DAA188000002DCF /* libReactNativeConfig.a */ = {
+		78B775DF1DAB614100002DCF /* libReactNativeConfig.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libReactNativeConfig.a;
-			remoteRef = 78B775C81DAA188000002DCF /* PBXContainerItemProxy */;
+			remoteRef = 78B775DE1DAB614100002DCF /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -387,7 +392,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../js/node_modules/react-native/packager/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/packager/react-native-xcode.sh";
 		};
 		7BCF004C797D99A5948AC48F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -567,6 +572,7 @@
 			baseConfigurationReference = FA4D25E366884C3CE41B72DB /* Pods-airapps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = airapps/airapps.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = airapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -580,6 +586,7 @@
 			baseConfigurationReference = 6B04F53C0144DD023C20D1AB /* Pods-airapps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = airapps/airapps.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = airapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

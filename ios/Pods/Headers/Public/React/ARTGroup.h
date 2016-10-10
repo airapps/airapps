@@ -1,1 +1,1 @@
-../../../../../js/node_modules/react-native/Libraries/ART/ARTGroup.h
+../../../../../node_modules/react-native/Libraries/ART/ARTGroup.h

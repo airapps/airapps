@@ -1,0 +1,1 @@
+../../../../../node_modules/react-native-wechat/ios/RCTWeChat.h
