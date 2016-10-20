@@ -574,9 +574,32 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = airapps/airapps.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = N22PJBS26Y;
+				HEADER_SEARCH_PATHS = (
+					"${PODS_ROOT}/PLPlayerKit/PLPlayerKit/lib/include",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AMap3DMap\"",
+					"\"${PODS_ROOT}/Headers/Public/AMapFoundation\"",
+					"\"${PODS_ROOT}/Headers/Public/AMapSearch\"",
+					"\"${PODS_ROOT}/Headers/Public/HappyDNS\"",
+					"\"${PODS_ROOT}/Headers/Public/PLMediaStreamingKit\"",
+					"\"${PODS_ROOT}/Headers/Public/PLPlayerKit\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTAMap\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTPili\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRongCloud\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTWeChat\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSVG\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"\"${PODS_ROOT}/Headers/Public/RongCloudIMLib\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA\"",
+					"\"${PODS_ROOT}/Headers/Public/airumeng\"",
+					"\"${PODS_ROOT}/Headers/Public/pili-librtmp\"",
+					"\"$(SRCROOT)/../node_modules/react-native-navigation/ios\"/**",
+				);
 				INFOPLIST_FILE = airapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.airapps.airapps;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.airapps.shell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -588,9 +611,32 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = airapps/airapps.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = N22PJBS26Y;
+				HEADER_SEARCH_PATHS = (
+					"${PODS_ROOT}/PLPlayerKit/PLPlayerKit/lib/include",
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AMap3DMap\"",
+					"\"${PODS_ROOT}/Headers/Public/AMapFoundation\"",
+					"\"${PODS_ROOT}/Headers/Public/AMapSearch\"",
+					"\"${PODS_ROOT}/Headers/Public/HappyDNS\"",
+					"\"${PODS_ROOT}/Headers/Public/PLMediaStreamingKit\"",
+					"\"${PODS_ROOT}/Headers/Public/PLPlayerKit\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTAMap\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTPili\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTRongCloud\"",
+					"\"${PODS_ROOT}/Headers/Public/RCTWeChat\"",
+					"\"${PODS_ROOT}/Headers/Public/RNSVG\"",
+					"\"${PODS_ROOT}/Headers/Public/React\"",
+					"\"${PODS_ROOT}/Headers/Public/RongCloudIMLib\"",
+					"\"${PODS_ROOT}/Headers/Public/UMengAnalytics-NO-IDFA\"",
+					"\"${PODS_ROOT}/Headers/Public/airumeng\"",
+					"\"${PODS_ROOT}/Headers/Public/pili-librtmp\"",
+					"\"$(SRCROOT)/../node_modules/react-native-navigation/ios\"/**",
+				);
 				INFOPLIST_FILE = airapps/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.airapps.airapps;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.airapps.shell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
