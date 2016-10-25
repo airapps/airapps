@@ -15,7 +15,7 @@
 ##Get Started
 
 1. Setup React Native env ( https://facebook.github.io/react-native/docs/getting-started.html#content )
-2. git clone https://github.com/airapps/air-drawer-template YourProjectName
+2. git clone https://github.com/airapps/air-drawer-template.git YourProjectName
 3. cd YourProjectName && npm start
 4. git clone https://github.com/airapps/airapps.git
 5. Setup cocoapods ( https://guides.cocoapods.org/using/getting-started.html )
