@@ -3,9 +3,12 @@
 ##Build-in
 
 - Wechat SDK
-- umeng Analytics
-- jpush
-- rongcloud IM
+- Umeng Analytics
+- Getui Push Notification
+- AMap (Gaode Map)
+- Rong Cloud IM
+- SVG
+- Pili Streaming Cloud
 - pingxx
 
 ##Ecosystem
