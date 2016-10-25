@@ -88,6 +88,12 @@ android {
         targetSdkVersion 22
         versionCode 1
         versionName "1.0"
+        manifestPlaceholders = [
+                GETUI_APP_ID : "APP_ID",
+                GETUI_APP_KEY : "APP_KEY",
+                GETUI_APP_SECRET : "APPSECRET",
+                PACKAGE_NAME : applicationId
+        ]
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
@@ -133,6 +139,7 @@ dependencies {
     compile project(':react-native-svg')
     compile project(':react-native-config')
     compile project(':react-native-wechat')
+    compile project(':air-getui')
 }
 
 // Run this once to be able to run the application with BUCK
