@@ -7,13 +7,15 @@
 - Getui Push Notification
 - AMap (Gaode Map)
 - Rong Cloud IM
-- SVG
 - Pili Streaming Cloud
-- pingxx
+- Code Push Cloud
+- SVG
+- Ping++ SDK
 
 ##Ecosystem
 
 - [air-cli](https://github.com/airapps/air-cli) Air Package Manager
+- [air-package-gen](https://github.com/airapps/air-package-gen) Air Package Gen
 
 ##Get Started
 
