@@ -52,7 +52,7 @@ public class AirReactNativeHost extends ReactNativeHost {
         //需要优化成异步
 
         SharedPreferences mPreferences = PreferenceManager.getDefaultSharedPreferences(getApplication().getApplicationContext());
-        mPreferences.edit().putString("debug_http_host", "192.168.181.26:8081").commit();
+        mPreferences.edit().putString("debug_http_host", "192.168.180.212:8081").commit();
 
         return super.createReactInstanceManager();
     }
