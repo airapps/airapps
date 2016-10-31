@@ -1,1 +1,0 @@
-../../../../../node_modules/air-amap/ios/RCTAMap/AMapSearchObject+RequestId.h

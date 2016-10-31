@@ -1,51 +1,4 @@
 PODS:
-  - airumeng (2.0.0):
-    - React
-    - UMengAnalytics-NO-IDFA
-  - AMap3DMap (4.2.1):
-    - AMapFoundation (~> 1.2)
-  - AMapFoundation (1.2.0)
-  - AMapSearch (4.2.0):
-    - AMapFoundation (~> 1.0)
-  - HappyDNS (0.3.10)
-  - pili-librtmp (1.0.4)
-  - PLMediaStreamingKit (2.1.1):
-    - HappyDNS (~> 0.3.0)
-    - pili-librtmp (= 1.0.4)
-    - PLMediaStreamingKit/Common (= 2.1.1)
-    - PLMediaStreamingKit/PLCameraStreamingKit (= 2.1.1)
-    - PLMediaStreamingKit/PLStreamingKit (= 2.1.1)
-  - PLMediaStreamingKit/Common (2.1.1):
-    - HappyDNS (~> 0.3.0)
-    - pili-librtmp (= 1.0.4)
-  - PLMediaStreamingKit/PLCameraStreamingKit (2.1.1):
-    - HappyDNS (~> 0.3.0)
-    - pili-librtmp (= 1.0.4)
-  - PLMediaStreamingKit/PLStreamingKit (2.1.1):
-    - HappyDNS (~> 0.3.0)
-    - pili-librtmp (= 1.0.4)
-  - PLPlayerKit (2.2.4):
-    - HappyDNS (~> 0.3.10)
-    - pili-librtmp (= 1.0.4)
-    - PLPlayerKit/precompiled (= 2.2.4)
-  - PLPlayerKit/precompiled (2.2.4):
-    - HappyDNS (~> 0.3.10)
-    - pili-librtmp (= 1.0.4)
-  - RCTAMap (1.0.0):
-    - AMap3DMap
-    - AMapSearch
-    - React
-  - RCTPili (2.0.0):
-    - PLMediaStreamingKit
-    - PLPlayerKit
-    - React
-  - RCTRongCloud (1.0.0):
-    - React
-    - RongCloudIMLib
-  - RCTWeChat (0.1.0):
-    - React
-  - React (0.36.0):
-    - React/Core (= 0.36.0)
   - React/ART (0.36.0):
     - React/Core
   - React/Core (0.36.0)
@@ -77,21 +30,8 @@ PODS:
     - React/Core
   - React/RCTWebSocket (0.36.0):
     - React/Core
-  - RNSVG (4.3.1):
-    - React
-  - RongCloudIMLib (2.7.2)
-  - UMengAnalytics-NO-IDFA (4.1.1)
 
 DEPENDENCIES:
-  - airumeng (from `../node_modules/air-umeng/ios/airumeng`)
-  - AMap3DMap
-  - AMapSearch
-  - PLMediaStreamingKit
-  - PLPlayerKit
-  - RCTAMap (from `../node_modules/air-amap/ios`)
-  - RCTPili (from `../node_modules/react-native-pili/ios/RCTPili`)
-  - RCTRongCloud (from `../node_modules/air-rongcloud/ios`)
-  - RCTWeChat (from `../node_modules/react-native-wechat/ios`)
   - React/ART (from `../node_modules/react-native`)
   - React/Core (from `../node_modules/react-native`)
   - React/RCTActionSheet (from `../node_modules/react-native`)
@@ -107,43 +47,14 @@ DEPENDENCIES:
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTVibration (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
-  - RNSVG (from `../node_modules/react-native-svg`)
-  - UMengAnalytics-NO-IDFA
 
 EXTERNAL SOURCES:
-  airumeng:
-    :path: "../node_modules/air-umeng/ios/airumeng"
-  RCTAMap:
-    :path: "../node_modules/air-amap/ios"
-  RCTPili:
-    :path: "../node_modules/react-native-pili/ios/RCTPili"
-  RCTRongCloud:
-    :path: "../node_modules/air-rongcloud/ios"
-  RCTWeChat:
-    :path: "../node_modules/react-native-wechat/ios"
   React:
     :path: "../node_modules/react-native"
-  RNSVG:
-    :path: "../node_modules/react-native-svg"
 
 SPEC CHECKSUMS:
-  airumeng: 57128b6bc1879d4bc80d4891bf51d9d33cc21752
-  AMap3DMap: 0a5237cdc228f49818763ce9707c997870c5eb01
-  AMapFoundation: 8acc2bf4eed79aab4d21002ddb8b24a6f3f3621c
-  AMapSearch: 788020fca7ed18819e8bc2bfca716a6775a05ada
-  HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
-  pili-librtmp: bc768bc3971edad732fd5e66f0ee991fa1a0a257
-  PLMediaStreamingKit: 64d4416ad8a39b3e63515cea52face395d048614
-  PLPlayerKit: 30e419fa90e84df34922e6dd5d5833d7e4348bf4
-  RCTAMap: 1586e5cc442b5346d3547668f7ca4afa286fbc68
-  RCTPili: 4914881e68ca19ac8d8199663f7a555c48286cce
-  RCTRongCloud: 7a18b9e2270c52bc51e079ecfe21fc4c92386bc4
-  RCTWeChat: 75ceede9aa8656160918bf15a112158efc46fb96
   React: 01dc10a6bec41af17a89c66298357f6621e58d5f
-  RNSVG: 3116e868e61fa09ce3be89c3f031e51b2d4ed252
-  RongCloudIMLib: 9a2118f5c8c812df8f3cae7859e6eaa69fac1f9d
-  UMengAnalytics-NO-IDFA: 1064992c1b7aaa22823179c0b33a664813fd7a85
 
-PODFILE CHECKSUM: 154ddf8d81c958f571d96323fd085bc965e421c4
+PODFILE CHECKSUM: efab0e041fcf7f274533d5b6053f935e23ff6103
 
 COCOAPODS: 1.0.1

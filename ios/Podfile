@@ -23,19 +23,6 @@ target 'airapps' do
     'RCTPushNotification',
     'RCTSettings'
   ]
-  pod 'PLMediaStreamingKit'
-  pod 'PLPlayerKit'
-  pod 'AMap3DMap'  #3D地图SDK
-  #pod 'AMap2DMap' #2D地图SDK (2D和3D不能同时使⽤用)
-  pod 'AMapSearch' #搜索服务SDK
-  pod 'RCTPili', :path => '../node_modules/react-native-pili/ios/RCTPili'
-  pod 'UMengAnalytics-NO-IDFA'
-  pod 'airumeng', :path => '../node_modules/air-umeng/ios/airumeng'
-  pod 'RCTRongCloud', :path => '../node_modules/air-rongcloud/ios'
-  pod 'RNSVG', :path => '../node_modules/react-native-svg'
-  pod 'RCTAMap', :path => '../node_modules/air-amap/ios'
-  pod 'RCTWeChat', :path => '../node_modules/react-native-wechat/ios'
-  #pod 'ReactNativeConfig', :path => '../js/node_modules/react-native-config/ios'
   target 'airappsUITests' do
     inherit! :search_paths
     # Pods for testing
