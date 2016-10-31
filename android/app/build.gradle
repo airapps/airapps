@@ -139,7 +139,7 @@ dependencies {
     compile project(':react-native-svg')
     compile project(':react-native-config')
     compile project(':react-native-wechat')
-    compile project(':air-getui')
+//    compile project(':air-getui')
 }
 
 // Run this once to be able to run the application with BUCK
