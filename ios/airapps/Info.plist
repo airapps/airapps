@@ -54,20 +54,6 @@
 	<string>locationDesciption</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>microphoneDesciption</string>
-	<key>UIAppFonts</key>
-	<array>
-		<string>Rubik-Black.ttf</string>
-		<string>Rubik-BlackItalic.ttf</string>
-		<string>Rubik-Bold.ttf</string>
-		<string>Rubik-BoldItalic.ttf</string>
-		<string>rubicon-icon-font.ttf</string>
-		<string>Rubik-Italic.ttf</string>
-		<string>Rubik-Light.ttf</string>
-		<string>Rubik-LightItalic.tt</string>
-		<string>Rubik-Medium.ttf</string>
-		<string>Rubik-MediumItalic.tt</string>
-		<string>Rubik-Regular.ttf</string>
-	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
