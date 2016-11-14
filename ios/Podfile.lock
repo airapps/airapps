@@ -44,40 +44,40 @@ PODS:
     - RongCloudIMLib
   - RCTWeChat (0.1.0):
     - React
-  - React (0.36.0):
-    - React/Core (= 0.36.0)
-  - React/ART (0.36.0):
+  - React (0.36.1):
+    - React/Core (= 0.36.1)
+  - React/ART (0.36.1):
     - React/Core
-  - React/Core (0.36.0)
-  - React/RCTActionSheet (0.36.0):
+  - React/Core (0.36.1)
+  - React/RCTActionSheet (0.36.1):
     - React/Core
-  - React/RCTAdSupport (0.36.0):
+  - React/RCTAdSupport (0.36.1):
     - React/Core
-  - React/RCTAnimation (0.36.0):
+  - React/RCTAnimation (0.36.1):
     - React/Core
-  - React/RCTCameraRoll (0.36.0):
+  - React/RCTCameraRoll (0.36.1):
     - React/Core
     - React/RCTImage
-  - React/RCTGeolocation (0.36.0):
+  - React/RCTGeolocation (0.36.1):
     - React/Core
-  - React/RCTImage (0.36.0):
+  - React/RCTImage (0.36.1):
     - React/Core
     - React/RCTNetwork
-  - React/RCTLinkingIOS (0.36.0):
+  - React/RCTLinkingIOS (0.36.1):
     - React/Core
-  - React/RCTNetwork (0.36.0):
+  - React/RCTNetwork (0.36.1):
     - React/Core
-  - React/RCTPushNotification (0.36.0):
+  - React/RCTPushNotification (0.36.1):
     - React/Core
-  - React/RCTSettings (0.36.0):
+  - React/RCTSettings (0.36.1):
     - React/Core
-  - React/RCTText (0.36.0):
+  - React/RCTText (0.36.1):
     - React/Core
-  - React/RCTVibration (0.36.0):
+  - React/RCTVibration (0.36.1):
     - React/Core
-  - React/RCTWebSocket (0.36.0):
+  - React/RCTWebSocket (0.36.1):
     - React/Core
-  - RNSVG (4.3.1):
+  - RNSVG (4.3.3):
     - React
   - RongCloudIMLib (2.7.2)
   - UMengAnalytics-NO-IDFA (4.1.1)
@@ -136,11 +136,11 @@ SPEC CHECKSUMS:
   PLMediaStreamingKit: 64d4416ad8a39b3e63515cea52face395d048614
   PLPlayerKit: 30e419fa90e84df34922e6dd5d5833d7e4348bf4
   RCTAMap: 1586e5cc442b5346d3547668f7ca4afa286fbc68
-  RCTPili: 4914881e68ca19ac8d8199663f7a555c48286cce
+  RCTPili: e32f78dd50a82314871f4a3813eac867ec25d45c
   RCTRongCloud: 7a18b9e2270c52bc51e079ecfe21fc4c92386bc4
   RCTWeChat: 75ceede9aa8656160918bf15a112158efc46fb96
-  React: 01dc10a6bec41af17a89c66298357f6621e58d5f
-  RNSVG: 3116e868e61fa09ce3be89c3f031e51b2d4ed252
+  React: d75161dea5db43c144b3753f628118b083ba049b
+  RNSVG: e6c25738dcec7e87d5c128bdc47e69f74f3a0745
   RongCloudIMLib: 9a2118f5c8c812df8f3cae7859e6eaa69fac1f9d
   UMengAnalytics-NO-IDFA: 1064992c1b7aaa22823179c0b33a664813fd7a85
 
