@@ -37,6 +37,7 @@ target 'airapps' do
   pod 'RCTWeChat', :path => '../node_modules/react-native-wechat/ios'
   #pod 'ReactNativeConfig', :path => '../js/node_modules/react-native-config/ios'
   pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
   target 'airappsUITests' do
     inherit! :search_paths
     # Pods for testing

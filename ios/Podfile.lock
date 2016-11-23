@@ -77,6 +77,8 @@ PODS:
     - React/Core
   - React/RCTWebSocket (0.36.1):
     - React/Core
+  - RNFS (2.0.1-rc.2):
+    - React/Core
   - RNSVG (4.3.3):
     - React
   - RNVectorIcons (3.0.0):
@@ -109,6 +111,7 @@ DEPENDENCIES:
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTVibration (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNFS (from `../node_modules/react-native-fs`)
   - RNSVG (from `../node_modules/react-native-svg`)
   - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - UMengAnalytics-NO-IDFA
@@ -126,6 +129,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-wechat/ios"
   React:
     :path: "../node_modules/react-native"
+  RNFS:
+    :path: "../node_modules/react-native-fs"
   RNSVG:
     :path: "../node_modules/react-native-svg"
   RNVectorIcons:
@@ -145,11 +150,12 @@ SPEC CHECKSUMS:
   RCTRongCloud: 7a18b9e2270c52bc51e079ecfe21fc4c92386bc4
   RCTWeChat: 75ceede9aa8656160918bf15a112158efc46fb96
   React: d75161dea5db43c144b3753f628118b083ba049b
+  RNFS: bdb66696425507b1de61b94ab67462a5f9c3779f
   RNSVG: e6c25738dcec7e87d5c128bdc47e69f74f3a0745
   RNVectorIcons: 4271384f6233e362f199fce0380a6030cb90c803
   RongCloudIMLib: 9a2118f5c8c812df8f3cae7859e6eaa69fac1f9d
   UMengAnalytics-NO-IDFA: 1064992c1b7aaa22823179c0b33a664813fd7a85
 
-PODFILE CHECKSUM: fe601b99725396786174ace8f7d1157f3272866e
+PODFILE CHECKSUM: 114ae69c0d02a2343ea8470684cf290162a9d34f
 
 COCOAPODS: 1.0.1
