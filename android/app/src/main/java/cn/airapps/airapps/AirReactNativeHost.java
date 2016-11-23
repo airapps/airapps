@@ -12,6 +12,7 @@ import com.facebook.react.shell.MainReactPackage;
 import com.horcrux.svg.RNSvgPackage;
 import com.pili.rnpili.PiliPackage;
 import com.theweflex.react.WeChatPackage;
+import com.rnfs.RNFSPackage;
 
 import java.util.Arrays;
 import java.util.List;
@@ -43,6 +44,7 @@ public class AirReactNativeHost extends ReactNativeHost {
                 new AMapPackage(),
                 new RNSvgPackage(),
                 new IMLibPackage(),
+                new RNFSPackage(),
                 new WeChatPackage()
         );
     }
@@ -52,7 +54,7 @@ public class AirReactNativeHost extends ReactNativeHost {
         //需要优化成异步
 
         SharedPreferences mPreferences = PreferenceManager.getDefaultSharedPreferences(getApplication().getApplicationContext());
-        mPreferences.edit().putString("debug_http_host", "192.168.201.14:8081").commit();
+        mPreferences.edit().putString("debug_http_host", "192.168.0.104:8081").commit();
 
         return super.createReactInstanceManager();
     }
