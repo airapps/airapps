@@ -110,7 +110,7 @@ android {
     buildTypes {
         debug {
             def hostIp = InetAddress.getLocalHost().getHostAddress()
-            buildConfigField "String", "DEBUG_IP" ,hostIp
+            buildConfigField "String", "DEBUG_IP" ,"\"${hostIp}\""
         }
         release {
             minifyEnabled enableProguardInReleaseBuilds
