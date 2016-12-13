@@ -11,9 +11,9 @@
   "author": "buhe",
   "license": "GPL-3.0",
   "dependencies": {
-    "air-amap": "1.0.1",
-    "air-rongcloud": "0.0.2",
-    "air-umeng": "1.0.0",
+    "air-amap": "^1.0.2",
+    "air-rongcloud": "^0.0.2",
+    "air-umeng": "^1.0.0",
     "jpush-react-native": "^1.1.6",
     "react": "^15.3.1",
     "react-native": "^0.36.0",
