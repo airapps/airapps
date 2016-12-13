@@ -4,11 +4,13 @@ import android.app.Application;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
+import com.burlap.filetransfer.FileTransferPackage;
 import com.dianwoba.rctamap.AMapPackage;
 import com.facebook.react.ReactInstanceManager;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
+import com.filepicker.FilePickerPackage;
 import com.horcrux.svg.RNSvgPackage;
 import com.pili.rnpili.PiliPackage;
 import com.theweflex.react.WeChatPackage;
@@ -45,7 +47,9 @@ public class AirReactNativeHost extends ReactNativeHost {
                 new RNSvgPackage(),
                 new IMLibPackage(),
                 new RNFSPackage(),
-                new WeChatPackage()
+                new WeChatPackage(),
+                new FilePickerPackage(),
+                new FileTransferPackage()
         );
     }
 
