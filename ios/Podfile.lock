@@ -79,7 +79,7 @@ PODS:
     - React/Core
   - RNFS (2.0.1-rc.2):
     - React/Core
-  - RNSVG (4.3.3):
+  - RNSVG (4.4.1):
     - React
   - RNVectorIcons (3.0.0):
     - React
@@ -151,7 +151,7 @@ SPEC CHECKSUMS:
   RCTWeChat: 75ceede9aa8656160918bf15a112158efc46fb96
   React: d75161dea5db43c144b3753f628118b083ba049b
   RNFS: bdb66696425507b1de61b94ab67462a5f9c3779f
-  RNSVG: e6c25738dcec7e87d5c128bdc47e69f74f3a0745
+  RNSVG: 2d81435a0dd8ef3dad52e16bd52f49c0698733db
   RNVectorIcons: 4271384f6233e362f199fce0380a6030cb90c803
   RongCloudIMLib: 9a2118f5c8c812df8f3cae7859e6eaa69fac1f9d
   UMengAnalytics-NO-IDFA: 1064992c1b7aaa22823179c0b33a664813fd7a85
