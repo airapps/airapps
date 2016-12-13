@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "configureJPush": "node node_modules/jpush-react-native/JPushConfiguration.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node node_modules/react-native/local-cli/cli.js start --port 8088"
   },

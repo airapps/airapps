@@ -12,6 +12,7 @@ import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.filepicker.FilePickerPackage;
 import com.horcrux.svg.RNSvgPackage;
+import com.oblador.vectoricons.VectorIconsPackage;
 import com.pili.rnpili.PiliPackage;
 import com.theweflex.react.WeChatPackage;
 import com.rnfs.RNFSPackage;
@@ -49,7 +50,8 @@ public class AirReactNativeHost extends ReactNativeHost {
                 new RNFSPackage(),
                 new WeChatPackage(),
                 new FilePickerPackage(),
-                new FileTransferPackage()
+                new FileTransferPackage(),
+                new VectorIconsPackage()
         );
     }
 
